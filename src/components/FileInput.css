@@ -1,0 +1,54 @@
+.file-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.file-label input[type='file'] {
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.preview {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.matrix-preview {
+  display: grid;
+  grid-template-columns: auto 80px;
+  gap: 0.5rem 1rem;
+  align-items: start;
+}
+
+.matrix-preview .matrix-row,
+.matrix-preview .vector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 0.25rem;
+}
+
+.matrix-preview span {
+  display: inline-block;
+  padding: 0.35rem 0.5rem;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.file-input button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #0ea5e9;
+  color: #fff;
+  border-radius: 8px;
+}
