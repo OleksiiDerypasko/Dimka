@@ -1,0 +1,12 @@
+.iterations {
+  margin-top: 1rem;
+}
+
+.iterations ul {
+  padding-left: 1rem;
+}
+
+.iterations li {
+  margin-bottom: 0.25rem;
+  color: #0f172a;
+}
